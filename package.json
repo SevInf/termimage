@@ -1,0 +1,25 @@
+{
+  "name": "termimage",
+  "version": "1.0.0",
+  "description": "Utility for displaying images in terminal",
+  "main": "lib/index.js",
+  "scripts": {
+    "prepublish": "babel --optional runtime src -d lib"
+  },
+  "keywords": [
+    "terminal",
+    "image",
+    "iterm2",
+    "iterm",
+    "graphics"
+  ],
+  "author": "Sergey Tatarintsev (https://github.com/SevInf)",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.4.7",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "babel-runtime": "^5.4.7"
+  }
+}
